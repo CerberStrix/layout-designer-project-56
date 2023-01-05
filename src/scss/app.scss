@@ -1,0 +1,23 @@
+$dark: #08020D;
+$light: #E0E0E0;
+$gray: #CACACA;
+$dark_gray: #3C3B3D;
+$green: #34C176;
+$orange: #F89202;
+$purple: #5328A1;
+$dark_red: #95390C;
+
+@font-face {
+  font-weight: 400;
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+
+body {
+  font-family: "Roboto";
+  font-size: 18px;
+  line-height: 1.5;
+  color: $gray;
+  background-color: $dark;
+}
+

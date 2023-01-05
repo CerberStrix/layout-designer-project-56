@@ -1,0 +1,14 @@
+@font-face {
+  font-weight: 400;
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+body {
+  font-family: "Roboto";
+  font-size: 18px;
+  line-height: 1.5;
+  color: #CACACA;
+  background-color: #08020D;
+}
+
+/*# sourceMappingURL=style.css.map */
