@@ -1,23 +1,19 @@
-$dark: #08020D;
-$light: #E0E0E0;
-$gray: #CACACA;
-$dark_gray: #3C3B3D;
-$green: #34C176;
-$orange: #F89202;
-$purple: #5328A1;
-$dark_red: #95390C;
+@import "general";
+@import "variables";
+@import "header";
+@import "boilerplate";
+@import "navigation";
 
-@font-face {
-  font-weight: 400;
-  font-family: "Roboto";
-  src: url("../fonts/Roboto-Regular.ttf");
+#page-description {
+  padding: 200px 0;
+  .form {
+    max-width: 570px;
+  }
 }
 
-body {
-  font-family: "Roboto";
-  font-size: 18px;
-  line-height: 1.5;
-  color: $gray;
-  background-color: $dark;
+.bg-banner {
+  background-image: url('../images/banner.png');
+  background-position: center;
+  background-size: cover;
 }
 

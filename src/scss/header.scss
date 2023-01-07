@@ -1,0 +1,62 @@
+@import "variables";
+
+#page-description {
+  padding: 200px 0;
+
+  form {
+    max-width: 570px;
+  }
+
+  h1 {
+    color: $white;
+    margin: 0;
+  }
+
+  h2 {
+    color: $white;
+    margin: 0;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 24px;
+    color: $white;
+  }
+}
+
+.form-input {
+  input {
+    box-sizing: border-box;
+    min-width: 270px;
+    min-height: 50px;
+
+    padding-left: 20px;
+    margin-bottom: 1.5rem;
+    border: solid 2px $gray;
+    border-radius: 3px;
+    background: transparent;
+  }
+
+  input::placeholder {
+    color: $white;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+    opacity: 1;
+  }
+
+}
+
+@media (max-width: 414px) {
+  .form-submit {
+    padding: 0 20px;
+  }
+
+  .form-input {
+    display: flex;
+    flex-grow: 1;
+    input {
+      width: 100%;
+    }
+  }
+}
