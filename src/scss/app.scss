@@ -3,13 +3,7 @@
 @import "header";
 @import "boilerplate";
 @import "navigation";
-
-#page-description {
-  padding: 200px 0;
-  .form {
-    max-width: 570px;
-  }
-}
+@import "main";
 
 .bg-banner {
   background-image: url('../images/banner.png');

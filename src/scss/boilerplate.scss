@@ -93,6 +93,17 @@
   background-color: $green;
 }
 
+.btn-card {
+  display:  inline-block;
+  box-sizing: border-box;
+  color: $white;
+  border: solid 2px $white;
+  height: auto;
+  font-size: 16px;
+  line-height: 150%;
+
+}
+
 .text-white {
   color: $white;
 }
