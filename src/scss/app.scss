@@ -4,10 +4,4 @@
 @import "boilerplate";
 @import "navigation";
 @import "main";
-
-.bg-banner {
-  background-image: url('../images/banner.png');
-  background-position: center;
-  background-size: cover;
-}
-
+@import "news"

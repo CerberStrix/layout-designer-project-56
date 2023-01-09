@@ -1,12 +1,27 @@
 .d-flex {
   display: flex;
 
+  &.row-rewerse {
+    flex-direction: row-reverse;
+  }
   &.justify-content-between {
     justify-content: space-between;
   }
 
+  &.justify-content-center {
+    justify-content: center;
+  }
+
   &.align-items-center {
     align-items: center;
+  }
+
+  &.align-items-top {
+    align-items: flex-start;
+  }
+
+  &.align-items-scretch {
+    align-items: stretch;
   }
 
   &.flex-grow-1 {
@@ -25,6 +40,13 @@
     flex-shrink: 0;
   }
 
+}
+.mt-0 {
+  margin-top: 0;
+}
+
+.mb-0 {
+  margin-bottom: 0;
 }
 .mx-auto {
   margin-right: auto;
@@ -47,8 +69,20 @@
   margin-right: 90px;
 }
 
+.ml-16 {
+  margin-left: 16px;
+}
+
+.mt-48 {
+  margin-top: 48px;
+}
+
 .p-0 {
   padding: 0;
+}
+
+.pt-16 {
+  padding-top: 16px;
 }
 
 .text-uppercase {
@@ -94,16 +128,27 @@
 }
 
 .btn-card {
-  display:  inline-block;
+  display:  block;
   box-sizing: border-box;
   color: $white;
-  border: solid 2px $white;
+  border: solid 1px $white;
   height: auto;
   font-size: 16px;
   line-height: 150%;
-
+  text-decoration: none;
 }
 
+.btn-br-gray {
+  border-color: $gray;
+}
 .text-white {
   color: $white;
+}
+
+.text-orange {
+  color: $orange;
+}
+
+.text-gray {
+  color: $gray;
 }

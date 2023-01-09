@@ -1,5 +1,11 @@
 @import "variables";
 
+.bg-banner {
+  background-image: url('../images/banner.png');
+  background-position: center;
+  background-size: cover;
+}
+
 #page-description {
   padding: 200px 0;
 
