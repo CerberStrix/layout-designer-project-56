@@ -77,6 +77,10 @@
   margin-top: 48px;
 }
 
+.mb-65 {
+  margin-bottom: 65px;
+}
+
 .p-0 {
   padding: 0;
 }
@@ -151,4 +155,31 @@
 
 .text-gray {
   color: $gray;
+}
+
+.col {
+  flex: 1 0 0;
+}
+
+.mb-48 {
+  margin-bottom: 48px;
+}
+
+.btn-radius-32 {
+  border-radius: 32px;
+}
+
+.btn-dark-red {
+  background-color: $dark_red;
+}
+
+.btn-app {
+  padding: 16px 40px;
+  font-size: 12.8px;
+  display:  block;
+  box-sizing: border-box;
+  width: 131px;
+  text-align: center;
+  border: none;
+  text-transform: none;
 }
