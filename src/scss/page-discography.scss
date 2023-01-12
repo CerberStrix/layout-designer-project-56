@@ -1,0 +1,42 @@
+.page-discography {
+  padding-top: 100px;
+}
+
+.discography-box {
+  column-gap: 50px;
+  row-gap: 25px;
+}
+
+.discography-item {
+  h3 {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 700px;
+    margin-bottom: 0;
+  }
+
+  img {
+    display: block;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+@media (max-width: 414px) {
+  .page-discography  {
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  img {
+    width: 137px;
+  }
+
+  .discography-item {
+    width: 137px;
+ 
+  }
+}

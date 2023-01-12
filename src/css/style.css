@@ -273,6 +273,10 @@ body {
   color: #F89202;
 }
 
+.text-light {
+  color: #E0E0E0;
+}
+
 .text-gray {
   color: #CACACA;
 }
@@ -690,11 +694,13 @@ hr {
   line-height: 19.2px;
   font-weight: 700;
   text-transform: uppercase;
+  color: #FFFFFF;
 }
 .track-info p {
   font-size: 12.8px;
   line-height: 19.2px;
   font-weight: 500;
+  color: #E0E0E0;
 }
 
 @media (max-width: 414px) {
@@ -702,6 +708,41 @@ hr {
     box-sizing: border-box;
     padding-left: 20px;
     padding-right: 20px;
+  }
+}
+.page-discography {
+  padding-top: 100px;
+}
+
+.discography-box {
+  column-gap: 50px;
+  row-gap: 25px;
+}
+
+.discography-item h3 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 700px;
+  margin-bottom: 0;
+}
+.discography-item img {
+  display: block;
+}
+.discography-item p {
+  margin: 0;
+}
+
+@media (max-width: 414px) {
+  .page-discography {
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  img {
+    width: 137px;
+  }
+  .discography-item {
+    width: 137px;
   }
 }
 
