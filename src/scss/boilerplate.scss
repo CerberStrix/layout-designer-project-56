@@ -73,8 +73,18 @@
   margin-left: 16px;
 }
 
+.mt-25 {
+  margin-top: 25;
+}
+.mt-24 {
+  margin-top: 24px;
+}
 .mt-48 {
   margin-top: 48px;
+}
+
+.mt-50 {
+  margin-top: 50px;
 }
 
 .mb-65 {
@@ -125,6 +135,7 @@
   font-size: 13px;
   line-height: 15px;
   border: none;
+  text-decoration: none;
 }
 
 .btn-green {
@@ -139,7 +150,6 @@
   height: auto;
   font-size: 16px;
   line-height: 150%;
-  text-decoration: none;
 }
 
 .btn-br-gray {
@@ -203,4 +213,29 @@ border-right: 0;
 hr {
   margin: 0;
   border: 1px solid $gray;
+}
+
+.artist-btn {
+  box-sizing: border-box;
+  width: 200px;
+  border: none;
+  margin-right: 1.5rem;
+
+  p {
+    font-size: 12.8px;
+    line-height: 150%;
+  }
+}
+
+.arrow-svg {
+  filter: invert(1);
+  width: 20px;
+}
+
+.btn-dark-red {
+  background-color: $dark_red;
+}
+
+.btn-purple {
+  background-color: $purple;
 }

@@ -6,7 +6,13 @@
   background-size: cover;
 }
 
-#page-description {
+.bg-banner-artist {
+  background-image: url('../images/Morten Harket.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.page-description {
   padding: 200px 0;
 
   form {
@@ -15,7 +21,6 @@
 
   h1 {
     color: $white;
-    margin: 0;
   }
 
   h2 {
