@@ -611,6 +611,7 @@ hr {
   box-sizing: border-box;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  column-gap: 40px;
   align-items: flex-start;
   padding-top: 62px;
   margin-bottom: 72px;
