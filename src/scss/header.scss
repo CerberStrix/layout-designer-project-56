@@ -30,7 +30,7 @@
 
   p {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 150%;
     color: $white;
   }
 }
@@ -59,9 +59,6 @@
 }
 
 @media (max-width: 414px) {
-  .form-submit {
-    padding: 0 20px;
-  }
 
   .form-input {
     display: flex;
@@ -70,7 +67,7 @@
       width: 100%;
     }
   }
-  
+
   .page-description {
     padding-top: 250px;
   }

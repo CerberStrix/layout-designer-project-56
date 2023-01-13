@@ -93,7 +93,7 @@ body {
 }
 .page-description p {
   font-size: 16px;
-  line-height: 24px;
+  line-height: 150%;
   color: #FFFFFF;
 }
 
@@ -116,9 +116,6 @@ body {
 }
 
 @media (max-width: 414px) {
-  .form-submit {
-    padding: 0 20px;
-  }
   .form-input {
     display: flex;
     flex-grow: 1;
