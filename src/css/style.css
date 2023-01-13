@@ -126,6 +126,9 @@ body {
   .form-input input {
     width: 100%;
   }
+  .page-description {
+    padding-top: 250px;
+  }
 }
 .d-flex {
   display: flex;
@@ -579,7 +582,7 @@ hr {
 }
 .page-app {
   padding-top: 100px;
-  padding-bottom: 100px;
+  margin-bottom: 100px;
 }
 .page-app p {
   font-size: 16px;
