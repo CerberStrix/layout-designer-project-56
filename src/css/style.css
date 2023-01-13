@@ -601,7 +601,7 @@ hr {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   align-items: flex-start;
-  padding-top: 3em;
+  padding-top: 68px;
   margin-bottom: 72px;
 }
 .footer-section h2 {
@@ -610,6 +610,7 @@ hr {
   font-weight: bold;
   text-transform: uppercase;
   color: #FFFFFF;
+  margin: 0;
 }
 
 .bg-gradient {
@@ -620,6 +621,7 @@ hr {
   list-style-type: none;
   padding-left: 0;
   margin-top: 15px;
+  margin-bottom: 0px;
 }
 .links a {
   font-size: 16px;
@@ -629,7 +631,8 @@ hr {
 }
 
 .social-links {
-  gap: 24px;
+  padding: 0;
+  column-gap: 24px;
 }
 
 .other-links {
@@ -650,6 +653,7 @@ hr {
     padding-left: 20px;
     padding-right: 20px;
     grid-template-columns: repeat(1, 1fr);
+    row-gap: 30px;
   }
   .other-links {
     box-sizing: border-box;
@@ -738,7 +742,7 @@ hr {
     padding-left: 20px;
     padding-right: 20px;
   }
-  img {
+  .page-discography img {
     width: 137px;
   }
   .discography-item {
@@ -778,6 +782,9 @@ hr {
     box-sizing: border-box;
     padding-left: 20px;
     padding-right: 20px;
+  }
+  .page-similar img {
+    width: 137px;
   }
   .similar-item {
     width: 137px;
