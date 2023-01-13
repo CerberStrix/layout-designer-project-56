@@ -1,8 +1,16 @@
 @import "variables";
 
 .nav {
-  padding-top: 25px;
+  position: absolute;
+
+  margin-left: 20px;
+  margin-right: 20px;
+
   align-items: center;
+  top: 25px;
+  left:50%;
+  transform:translateX(-50%);
+
   text-transform: uppercase;
   list-style-type: none;
   text-decoration: none;

@@ -90,10 +90,9 @@ body {
 }
 .page-description h2 {
   color: #FFFFFF;
-  margin: 0;
+  margin-top: 0px;
 }
 .page-description p {
-  margin-top: 30px;
   font-size: 16px;
   line-height: 24px;
   color: #FFFFFF;
@@ -366,8 +365,13 @@ hr {
 }
 
 .nav {
-  padding-top: 25px;
+  position: absolute;
+  margin-left: 20px;
+  margin-right: 20px;
   align-items: center;
+  top: 25px;
+  left: 50%;
+  transform: translateX(-50%);
   text-transform: uppercase;
   list-style-type: none;
   text-decoration: none;
