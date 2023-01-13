@@ -612,7 +612,7 @@ hr {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   align-items: flex-start;
-  padding-top: 68px;
+  padding-top: 62px;
   margin-bottom: 72px;
 }
 .footer-section h2 {
