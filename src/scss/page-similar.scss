@@ -1,0 +1,44 @@
+@import "variables";
+
+.page-similar {
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+.similar-box {
+  column-gap: 50px;
+  row-gap: 25px;
+}
+
+.similar-item {
+  text-align: center;
+
+  h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: $white;
+
+    margin-top: 18px;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 150%;
+    color: $light;
+    margin: 0;
+  }
+}
+
+@media (max-width: 414px) {
+  .page-similar  {
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .similar-item {
+    width: 137px;
+  }
+}

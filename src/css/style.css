@@ -745,5 +745,43 @@ hr {
     width: 137px;
   }
 }
+.page-similar {
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+.similar-box {
+  column-gap: 50px;
+  row-gap: 25px;
+}
+
+.similar-item {
+  text-align: center;
+}
+.similar-item h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+  margin-top: 18px;
+  margin-bottom: 0;
+}
+.similar-item p {
+  font-size: 16px;
+  line-height: 150%;
+  color: #E0E0E0;
+  margin: 0;
+}
+
+@media (max-width: 414px) {
+  .page-similar {
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .similar-item {
+    width: 137px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
