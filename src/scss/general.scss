@@ -32,6 +32,11 @@ body {
 
   .container {
     max-width: 1200px;
+
+    @media (max-width: $desktop) {
+      margin-right: 20px;
+      margin-left: 20px;
+    }
   }
 
   h1 {
