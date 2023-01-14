@@ -101,11 +101,16 @@
   }
 
   .pricing-item {
+    width: 374px;
     margin-bottom: 47px;
 
     h3 {
       font-size: 16px;
       line-height: 24px;
+    }
+
+    p {
+      color: $white;
     }
   }
 
