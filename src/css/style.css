@@ -456,6 +456,7 @@ hr {
 .page-pricing .footer-text {
   font-size: 16px;
   margin: 0;
+  color: #FFFFFF;
 }
 
 .card-price {
@@ -542,6 +543,7 @@ hr {
     margin-bottom: 48px;
   }
   .pricing-item h3 {
+    margin-top: 17px;
     font-size: 16px;
     line-height: 24px;
   }
@@ -550,6 +552,9 @@ hr {
   }
   .cards-box {
     margin-top: 46px;
+  }
+  .card-price {
+    margin-bottom: 41;
   }
 }
 .page-news {
