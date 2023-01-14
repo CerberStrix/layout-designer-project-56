@@ -598,14 +598,14 @@ hr {
   line-height: 150%;
   color: #CACACA;
 }
+.page-app img {
+  display: block;
+  margin: 0 auto;
+}
 
 .app-info {
   max-width: 600px;
   text-align: left;
-}
-
-.page-app-box {
-  column-gap: 144px;
 }
 
 @media (max-width: 414px) {

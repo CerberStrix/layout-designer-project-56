@@ -12,6 +12,11 @@
     line-height: 150%;
     color: $gray;
   }
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 .app-info {
@@ -19,9 +24,8 @@
   text-align: left;
 }
 
-.page-app-box {
-  column-gap: 144px;
-}
+
+
 
 @media (max-width: 414px) {
   .page-app {
