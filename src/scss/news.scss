@@ -74,8 +74,17 @@
     box-sizing: border-box;
     padding-left: 20px;
     padding-right: 20px;
+
+
   }
   .news-container {
     max-width: 100%;
+  }
+
+  .news-body {
+    h3 {
+      font-size: 16px;
+      line-height: 24px;
+    }
   }
 }

@@ -445,7 +445,7 @@ hr {
 }
 
 .page-pricing {
-  margin-top: 100px;
+  padding-top: 100px;
   text-align: center;
   overflow: hidden;
 }
@@ -591,6 +591,10 @@ hr {
   }
   .news-container {
     max-width: 100%;
+  }
+  .news-body h3 {
+    font-size: 16px;
+    line-height: 24px;
   }
 }
 #page-app {
