@@ -601,7 +601,10 @@ hr {
 .app-info {
   flex-basis: 50%;
   text-align: left;
-  margin-right: 144px;
+}
+
+.page-app-box {
+  column-gap: 144px;
 }
 
 @media (max-width: 414px) {
