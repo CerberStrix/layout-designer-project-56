@@ -588,10 +588,11 @@ hr {
     max-width: 100%;
   }
 }
-.page-app {
+#page-app {
   padding-top: 100px;
   margin-bottom: 100px;
 }
+
 .page-app p {
   font-size: 16px;
   line-height: 150%;
@@ -605,7 +606,6 @@ hr {
 
 .page-app-box {
   column-gap: 144px;
-  margin: 0 10px;
 }
 
 @media (max-width: 414px) {
