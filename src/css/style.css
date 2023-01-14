@@ -129,6 +129,9 @@ body {
     padding-top: 250px;
     padding-bottom: 201px;
   }
+  .page-description p {
+    margin-top: 16px;
+  }
 }
 .d-flex {
   display: flex;
