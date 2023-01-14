@@ -228,6 +228,11 @@ body {
   padding-top: 16px;
 }
 
+.px-20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .text-uppercase {
   text-transform: uppercase;
 }
