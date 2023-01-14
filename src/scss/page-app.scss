@@ -15,7 +15,7 @@
 }
 
 .app-info {
-  flex-basis:50%;
+  max-width: 600px;
   text-align: left;
 }
 
@@ -38,5 +38,9 @@
     order: 2;
     flex-basis:100%;
     text-align: left;
+  }
+
+  .page-app-box {
+    justify-content: center;
   }
 }
