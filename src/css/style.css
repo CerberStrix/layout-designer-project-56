@@ -551,10 +551,7 @@ hr {
     color: #FFFFFF;
   }
   .cards-box {
-    margin-top: 46px;
-  }
-  .card-price {
-    margin-bottom: 41;
+    margin-top: 47px;
   }
 }
 .page-news {
@@ -762,6 +759,14 @@ hr {
 .popular-track {
   flex: 0 1 575px;
 }
+.popular-track img {
+  width: 55px;
+  height: auto;
+}
+.popular-track time {
+  font-size: 12.8px;
+  line-height: 150%;
+}
 
 .tracks-box {
   column-gap: 50px;
@@ -842,6 +847,7 @@ hr {
 
 .similar-item {
   text-align: center;
+  row-gap: 17px;
 }
 .similar-item h3 {
   font-weight: 700;

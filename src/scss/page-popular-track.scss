@@ -7,7 +7,17 @@
   }
 }
 .popular-track {
-  flex: 0 1 575px
+  flex: 0 1 575px;
+
+  img {
+    width: 55px;
+    height: auto;
+  }
+
+  time {
+    font-size: 12.8px;
+    line-height: 150%;
+  }
 }
 
 .tracks-box {
