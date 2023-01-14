@@ -90,6 +90,7 @@ body {
 .page-description h2 {
   color: #FFFFFF;
   margin-top: 0px;
+  margin-bottom: 0px;
 }
 .page-description p {
   font-size: 16px;
@@ -125,6 +126,7 @@ body {
   }
   .page-description {
     padding-top: 250px;
+    padding-bottom: 201px;
   }
 }
 .d-flex {
@@ -415,6 +417,11 @@ hr {
   }
   .nav a {
     font-weight: 700;
+    line-height: 13px;
+    color: #FFFFFF;
+  }
+  .nav input {
+    font-size: 13.3px;
   }
 }
 .btn-search {
