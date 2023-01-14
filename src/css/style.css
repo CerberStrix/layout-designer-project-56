@@ -812,7 +812,7 @@ hr {
 .discography-item h3 {
   font-size: 18px;
   line-height: 27px;
-  font-weight: 700px;
+  font-weight: 700;
   margin-bottom: 0;
 }
 .discography-item img {
@@ -833,6 +833,9 @@ hr {
   }
   .discography-item {
     width: 137px;
+  }
+  .discography-info {
+    font-size: 16px;
   }
 }
 .page-similar {
