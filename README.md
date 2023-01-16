@@ -1,4 +1,4 @@
-## layout: https://www.figma.com/file/b6AjhwQsQeSeoIteenOTIp/Hexlet-LayoutDesigner-Project.-Music-Box?node-id=0%3A1
+## Layout: https://www.figma.com/file/b6AjhwQsQeSeoIteenOTIp/Hexlet-LayoutDesigner-Project.-Music-Box?node-id=0%3A1
 
 ## Page 1: 
 
