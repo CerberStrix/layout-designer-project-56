@@ -124,10 +124,6 @@ body {
   .form-input input {
     width: 100%;
   }
-  .page-description {
-    padding-top: 248px;
-    padding-bottom: 201px;
-  }
 }
 .d-flex {
   display: flex;
@@ -752,7 +748,7 @@ hr {
     padding-right: 20px;
   }
   .artist-header {
-    margin-top: 0;
+    margin-top: 25px;
   }
 }
 .page-popular-track {
