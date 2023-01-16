@@ -8,7 +8,7 @@
   align-items: flex-start;
   padding-top: 62px;
   margin-bottom: 72px;
-  
+
   h2 {
     font-size: 18px;
     line-height: 27px;
@@ -47,16 +47,16 @@
 }
 
 .other-links {
-   margin-top: 40px;
-   padding-bottom: 49px;
+  margin-top: 40px;
+  padding-bottom: 49px;
 
-   a {
+  a {
     font-size: 16px;
     line-height: 24px;
     color: $gray;
     text-decoration: none;
     margin-right: 16px;
-   }
+  }
 }
 
 @media (max-width: 414px) {
@@ -75,5 +75,4 @@
     flex-direction: column;
     gap: 16px;
   }
-  
 }

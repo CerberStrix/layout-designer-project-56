@@ -13,8 +13,8 @@ body {
   font-family: "Roboto";
   font-size: 18px;
   line-height: 1.5;
-  color: #CACACA;
-  background-color: #08020D;
+  color: #cacaca;
+  background-color: #08020d;
 }
 
 .container {
@@ -85,17 +85,17 @@ body {
   max-width: 570px;
 }
 .page-description h1 {
-  color: #FFFFFF;
+  color: white;
 }
 .page-description h2 {
-  color: #FFFFFF;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .page-description p {
   font-size: 16px;
   line-height: 150%;
-  color: #FFFFFF;
+  color: white;
 }
 
 .form-input input {
@@ -104,12 +104,12 @@ body {
   min-height: 50px;
   padding-left: 20px;
   margin-bottom: 1.5rem;
-  border: solid 2px #CACACA;
+  border: solid 2px #cacaca;
   border-radius: 3px;
   background: transparent;
 }
 .form-input input::placeholder {
-  color: #FFFFFF;
+  color: white;
   font-size: 14px;
   line-height: 16px;
   font-weight: 700;
@@ -251,7 +251,7 @@ body {
 }
 
 .btn-dark-gray {
-  background-color: #3C3B3D;
+  background-color: #3c3b3d;
   color: #757575;
 }
 
@@ -282,37 +282,37 @@ body {
 }
 
 .btn-green {
-  background-color: #34C176;
+  background-color: #34c176;
 }
 
 .btn-card {
   display: block;
   box-sizing: border-box;
-  color: #FFFFFF;
-  border: solid 1px #FFFFFF;
+  color: white;
+  border: solid 1px white;
   height: auto;
   font-size: 16px;
   line-height: 150%;
 }
 
 .btn-br-gray {
-  border-color: #CACACA;
+  border-color: #cacaca;
 }
 
 .text-white {
-  color: #FFFFFF;
+  color: white;
 }
 
 .text-orange {
-  color: #F89202;
+  color: #f89202;
 }
 
 .text-light {
-  color: #E0E0E0;
+  color: #e0e0e0;
 }
 
 .text-gray {
-  color: #CACACA;
+  color: #cacaca;
 }
 
 .col {
@@ -328,7 +328,7 @@ body {
 }
 
 .btn-dark-red {
-  background-color: #95390C;
+  background-color: #95390c;
 }
 
 .btn-app {
@@ -360,7 +360,7 @@ body {
 
 hr {
   margin: 0;
-  border: 1px solid #CACACA;
+  border: 1px solid #cacaca;
 }
 
 .artist-btn {
@@ -381,11 +381,11 @@ hr {
 }
 
 .btn-dark-red {
-  background-color: #95390C;
+  background-color: #95390c;
 }
 
 .btn-purple {
-  background-color: #5328A1;
+  background-color: #5328a1;
 }
 
 .nav {
@@ -441,7 +441,7 @@ hr {
   .nav a {
     font-weight: 700;
     line-height: 13px;
-    color: #FFFFFF;
+    color: white;
   }
   .nav input {
     font-size: 13.3px;
@@ -451,7 +451,7 @@ hr {
   height: 25px;
   min-width: 248px;
   padding: 5px 10px;
-  font-family: "Arial", sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 13px;
   line-height: 15px;
   border-radius: 50px;
@@ -464,17 +464,17 @@ hr {
   overflow: hidden;
 }
 .page-pricing h2 {
-  color: #FFFFFF;
+  color: white;
   text-align: center;
 }
 .page-pricing .footer-text {
   font-size: 16px;
   margin: 0;
-  color: #FFFFFF;
+  color: white;
 }
 
 .card-price {
-  color: #FFFFFF;
+  color: white;
   height: 64px;
   margin: 0;
   margin-bottom: 40px;
@@ -518,7 +518,7 @@ hr {
   line-height: 36px;
   font-weight: 400;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: white;
 }
 .pricing-item .pricing-value {
   display: flex;
@@ -562,7 +562,7 @@ hr {
     line-height: 24px;
   }
   .pricing-item p {
-    color: #FFFFFF;
+    color: white;
   }
   .cards-box {
     margin-top: 47px;
@@ -655,7 +655,7 @@ hr {
 .page-app p {
   font-size: 16px;
   line-height: 150%;
-  color: #CACACA;
+  color: #cacaca;
 }
 .page-app img {
   display: block;
@@ -699,7 +699,7 @@ hr {
   line-height: 27px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: white;
   margin: 0;
 }
 
@@ -719,7 +719,7 @@ hr {
 }
 .links a {
   text-decoration: none;
-  color: #E0E0E0;
+  color: #e0e0e0;
 }
 
 .social-links {
@@ -734,7 +734,7 @@ hr {
 .other-links a {
   font-size: 16px;
   line-height: 24px;
-  color: #CACACA;
+  color: #cacaca;
   text-decoration: none;
   margin-right: 16px;
 }
@@ -801,13 +801,13 @@ hr {
   line-height: 19.2px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: white;
 }
 .track-info p {
   font-size: 12.8px;
   line-height: 19.2px;
   font-weight: 500;
-  color: #E0E0E0;
+  color: #e0e0e0;
 }
 
 @media (max-width: 414px) {
@@ -875,14 +875,14 @@ hr {
   font-weight: 700;
   font-size: 18px;
   line-height: 27px;
-  color: #FFFFFF;
+  color: white;
   margin-top: 15px;
   margin-bottom: 0;
 }
 .similar-item p {
   font-size: 16px;
   line-height: 150%;
-  color: #E0E0E0;
+  color: #e0e0e0;
   margin: 0;
 }
 

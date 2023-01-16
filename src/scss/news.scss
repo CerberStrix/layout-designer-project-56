@@ -15,18 +15,17 @@
   display: flex;
   gap: 50px;
   flex-wrap: wrap;
+
   img {
     order: 0;
     max-width: 100%;
     height: auto;
   }
-
 }
 
 .news-container {
   max-width: 48%;
 }
-
 
 .news-body {
   text-align: left;

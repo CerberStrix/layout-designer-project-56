@@ -1,13 +1,13 @@
 @import "variables";
 
 .bg-banner {
-  background-image: url('../images/banner.png');
+  background-image: url("../images/banner.png");
   background-position: center;
   background-size: cover;
 }
 
 .bg-banner-artist {
-  background-image: url('../images/Morten Harket.png');
+  background-image: url("../images/Morten Harket.png");
   background-position: center;
   background-size: cover;
 }
@@ -25,8 +25,8 @@
 
   h2 {
     color: $white;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   p {
@@ -56,11 +56,9 @@
     font-weight: 700;
     opacity: 1;
   }
-
 }
 
 @media (max-width: 414px) {
-
   .form-input {
     display: flex;
     flex-grow: 1;
@@ -71,6 +69,7 @@
 
   .page-description {
     padding-bottom: 201px;
+
     p {
       margin-top: 16px;
     }
@@ -79,5 +78,4 @@
       margin-top: 49px;
     }
   }
-
 }

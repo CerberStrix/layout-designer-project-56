@@ -6,8 +6,8 @@
 
   align-items: center;
   top: 25px;
-  left:50%;
-  transform:translateX(-50%);
+  left: 50%;
+  transform: translateX(-50%);
 
   text-transform: uppercase;
   list-style-type: none;
@@ -46,7 +46,6 @@
   .search-form {
     display: flex;
     width: 100%;
-
   }
 
   .btn-search {
@@ -68,7 +67,7 @@
     input {
       font-size: 13.3px;
     }
-  } 
+  }
 }
 
 .btn-search {
@@ -77,11 +76,10 @@
 
   padding: 5px 10px;
 
-  font-family: "Arial", sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 13px;
   line-height: 15px;
 
   border-radius: 50px;
   border-style: none;
 }
-
