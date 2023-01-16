@@ -850,14 +850,16 @@ hr {
 
 .similar-item {
   text-align: center;
-  row-gap: 17px;
+}
+.similar-item img {
+  display: block;
 }
 .similar-item h3 {
   font-weight: 700;
   font-size: 18px;
   line-height: 27px;
   color: #FFFFFF;
-  margin-top: 18px;
+  margin-top: 17px;
   margin-bottom: 0;
 }
 .similar-item p {

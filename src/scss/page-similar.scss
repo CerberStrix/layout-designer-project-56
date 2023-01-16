@@ -12,7 +12,10 @@
 
 .similar-item {
   text-align: center;
-  row-gap: 17px;
+
+  img {
+    display: block;
+  }
 
   h3 {
     font-weight: 700;
@@ -20,7 +23,7 @@
     line-height: 27px;
     color: $white;
 
-    margin-top: 17px;
+    margin-top: 15px;
     margin-bottom: 0;
   }
 
