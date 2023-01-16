@@ -749,18 +749,14 @@ hr {
     gap: 16px;
   }
 }
-.page-description h1 {
-  margin-top: 50px;
-}
-.page-description p {
-  margin-top: 16px;
-}
-
 @media (max-width: 414px) {
   .page-description {
     box-sizing: border-box;
     padding-left: 20px;
     padding-right: 20px;
+  }
+  .page-description h1 {
+    margin-top: 25px;
   }
 }
 .page-popular-track {
