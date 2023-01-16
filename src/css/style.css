@@ -96,7 +96,6 @@ body {
   font-size: 16px;
   line-height: 150%;
   color: #FFFFFF;
-  margin-top: 31px;
 }
 
 .form-input input {
@@ -128,9 +127,6 @@ body {
   .page-description {
     padding-top: 248px;
     padding-bottom: 201px;
-  }
-  .page-description p {
-    margin-top: 16px;
   }
 }
 .d-flex {
@@ -756,7 +752,7 @@ hr {
     padding-right: 20px;
   }
   .artist-header {
-    margin-top: 25px;
+    margin-top: 0;
   }
 }
 .page-popular-track {
