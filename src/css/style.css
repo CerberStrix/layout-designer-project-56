@@ -124,6 +124,12 @@ body {
   .form-input input {
     width: 100%;
   }
+  .page-description p {
+    margin-top: 16px;
+  }
+  .page-description .main-header {
+    margin-top: 50px;
+  }
 }
 .d-flex {
   display: flex;
@@ -194,6 +200,10 @@ body {
 
 .mt-16 {
   margin-top: 16px;
+}
+
+.mt-32 {
+  margin-top: 32px;
 }
 
 .mt-25 {
