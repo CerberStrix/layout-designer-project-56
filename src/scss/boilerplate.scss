@@ -40,7 +40,6 @@
   &.flex-noshrink {
     flex-shrink: 0;
   }
-
 }
 
 .mt-0 {
@@ -126,8 +125,8 @@
 }
 
 .btn-dark-gray {
-  background-color: $dark_gray;
-  color: $medium_gray;
+  background-color: $dark-gray;
+  color: $medium-gray;
 }
 
 .text-center {
@@ -165,7 +164,7 @@
 }
 
 .btn-card {
-  display:  block;
+  display: block;
   box-sizing: border-box;
   color: $white;
   border: solid 1px $white;
@@ -207,13 +206,13 @@
 }
 
 .btn-dark-red {
-  background-color: $dark_red;
+  background-color: $dark-red;
 }
 
 .btn-app {
   padding: 16px 40px;
   font-size: 12.8px;
-  display:  block;
+  display: block;
   box-sizing: border-box;
   width: 131px;
   text-align: center;
@@ -222,15 +221,15 @@
 }
 
 .w-100 {
- width: 100%;
+  width: 100%;
 }
 
 .border-right-0 {
-border-right: 0;
+  border-right: 0;
 }
 
 .border-left-0 {
- border-left: 0;
+  border-left: 0;
 }
 
 .border-top-0 {
@@ -258,10 +257,6 @@ hr {
 .arrow-svg {
   filter: invert(1);
   width: 20px;
-}
-
-.btn-dark-red {
-  background-color: $dark_red;
 }
 
 .btn-purple {

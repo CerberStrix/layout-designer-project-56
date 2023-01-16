@@ -1,21 +1,21 @@
-@import "variables.scss";
+@import "variables";
 
 @font-face {
   font-weight: 400;
-  font-family: "Roboto";
+  font-family: Roboto;
   src: url("../fonts/Roboto-Regular.ttf");
 }
 
 @font-face {
   font-weight: 700;
-  font-family: "Roboto";
+  font-family: Roboto;
   src: url("../fonts/Roboto-Bold.ttf");
 }
 
 body {
   margin: 0;
-  
-  font-family: "Roboto";
+
+  font-family: Roboto sans-serif;
   font-size: 18px;
   line-height: 1.5;
   color: $gray;
@@ -28,7 +28,6 @@ body {
 }
 
 @media (min-width: 1240px) {
-
   .container {
     max-width: 1200px;
 
@@ -54,7 +53,6 @@ body {
 }
 
 @media (max-width: 414px) {
-
   .container {
     width: 100%;
   }
@@ -65,7 +63,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
   }
-  
+
   h2 {
     font-size: 18px;
     line-height: 27px;
