@@ -124,6 +124,9 @@ body {
   .form-input input {
     width: 100%;
   }
+  .page-description {
+    padding-bottom: 201px;
+  }
   .page-description p {
     margin-top: 16px;
   }
@@ -364,6 +367,7 @@ hr {
   box-sizing: border-box;
   width: 200px;
   border: none;
+  height: 62px;
   margin-right: 1.5rem;
 }
 .artist-btn p {
