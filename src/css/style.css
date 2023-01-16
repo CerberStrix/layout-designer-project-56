@@ -881,6 +881,9 @@ hr {
   .similar-item {
     width: 137px;
   }
+  .similar-item h3 {
+    margin-top: 18px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
